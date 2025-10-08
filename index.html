@@ -23,22 +23,24 @@
               Black Forest Food Trailer
             </h1>
           </div>
-          <div class="flex space-x-2 text-white">
-            <div class="flex items-start">
+          <div class="flex space-x-2 text-white ml-4">
+            <div class="flex items-start md:invisible md:w-0">
               <a href="tel:+491703375243">
                 <img src="img/phone.svg" class="w-6 h-6 mr-3 mt-1" />
               </a>
             </div>
-            <div class="flex items-start">
+            <div class="flex items-start invisible md:visible items-center container w-0 md:w-fit whitespace-nowrap"><img src="img/phone.svg" class="w-6 h-6 mr-1" /><p>+49 170 3375243</p></div>
+            <div class="flex items-start md:invisible md:w-0">
               <a href="https://wa.me/491703375243">
                 <img src="img/whatsapp.svg" class="w-6 h-6 mr-3 mt-1" />
               </a>
             </div>
-            <div class="flex items-start">
+            <div class="flex items-start md:invisible md:w-0">
               <a href="mailto:rosenfeldermaik@web.de">
                 <img src="img/email.svg" class="w-6 h-6 mr-3 mt-1" />
               </a>
             </div>
+            <div class="flex items-start invisible md:visible items-center container w-0 md:w-fit whitespace-nowrap"><img src="img/email.svg" class="w-6 h-6 mr-1" /><p>rosenfeldermaik@web.de</p></div>
           </div>
         </div>
       </div>
@@ -68,7 +70,7 @@
         >
       </div>
       <div
-        class="absolute top-8 right-8 lg:right-24 lg:top-1/3 flex lg:flex-col spaxe-x-2 lg:space-y-2 text-white"
+        class="absolute top-8 right-8 lg:right-24 lg:top-1/3 flex lg:flex-col space-x-2 lg:space-y-2 text-white visible md:invisible"
       >
         <div class="flex items-start">
           <a href="tel:+491703375243">
@@ -86,14 +88,20 @@
           </a>
         </div>
       </div>
+      <div
+        class="absolute flex flex-col right-4 top-4 invisible md:visible text-white space-y-2"
+      >
+        <div class="flex invisible md:visible items-end text-center w-0 md:w-fit whitespace-nowrap space-x-2 container"><img src="img/phone.svg" class="w-6 h-6" /><p>+49 170 3375243</p></div>
+        <div class="flex invisible md:visible items-end w-0 md:w-fit whitespace-nowrap space-x-2 container"><img src="img/email.svg" class="w-6 h-6" /><p class="h-fit text-justify">rosenfeldermaik@web.de</p></div>
+      </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-16 bg-gray-100">
-      <div class="container mx-auto px-4">
+    <section id="about" class="py-8 bg-gray-100">
+      <div class="container mx-auto px-8 md:px-8">
         <div class="flex flex-col md:flex-row items-center">
-          <div class="flex md:w-1/2 mb-8 md:mb-0 justify-center">
-            <img src="img\bfft_logo.svg" class="w-48 md:w-72" /> 
+          <div class="flex w-0 md:w-1/2 justify-center">
+            <img src="img\bfft_logo.svg" class="w-0 md:w-72 md:visible invisible" /> 
           </div>
           <div class="md:w-1/2 md:pl-12 text-[#1b2a1d]">
             <h2 class="text-3xl font-bold mb-6 playfair">
