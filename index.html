@@ -23,7 +23,7 @@
             Black Forest Food Trailer
           </h1>
         </div>
-        <div class="flex w-fit md:invisible md:w-0">
+        <div class="flex w-fit md:hidden md:w-0">
             <a href="tel:+491703375243" class="pr-4">
               <img src="img/phone.svg" class="w-6 h-6" />
             </a>      
@@ -34,15 +34,17 @@
               <img src="img/email.svg" class="w-6 h-6" />
             </a>      
         </div>
-        <div class="flex text-white invisible md:visible w-0 md:w-fit space-x-2">
-          <div class="flex items-start items-center pr-8 text-nowrap"><img
-              src="img/phone.svg" class="w-6 h-6 mr-1" />
-            <p>+49 170 3375243</p>
-          </div>
-          <div class="flex items-start items-center text-nowrap"><a
-              href="mailto:rosenfeldermaik@web.de" class="flex"><img src="img/email.svg" class="w-6 h-6 mr-1" />
-              <p>rosenfeldermaik@web.de</p>
-            </a>
+        <div class="flex text-white hidden md:block w-0 md:w-fit space-x-2">
+          <div class="flex space-x-2">
+            <div class="flex items-start items-center pr-8 text-nowrap"><img
+                src="img/phone.svg" class="w-6 h-6" />
+              <p>+49 170 3375243</p>
+            </div>
+            <div class="flex items-start items-center text-nowrap pr-2"><a
+                href="mailto:rosenfeldermaik@web.de" class="flex"><img src="img/email.svg" class="w-6 h-6" />
+                <p>rosenfeldermaik@web.de</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -68,7 +70,7 @@
         Angebot</a>
     </div>
     <div
-      class="absolute top-8 right-8 lg:right-24 lg:top-1/3 flex lg:flex-col space-x-2 lg:space-y-2 text-white md:invisible">
+      class="absolute top-8 right-8 lg:right-24 lg:top-1/3 flex lg:flex-col space-x-2 lg:space-y-2 text-white md:hidden">
       <div class="flex items-start">
         <a href="tel:+491703375243">
           <img src="img/phone.svg" class="w-6 h-6 lg:w-10 ml-4 lg:h-10" />
@@ -85,15 +87,19 @@
         </a>
       </div>
     </div>
-    <div class="absolute flex flex-col right-4 top-4 invisible md:visible text-white space-y-2">
-      <div class="flex invisible md:visible items-end text-center w-0 md:w-fit whitespace-nowrap space-x-2 container">
-        <img src="img/phone.svg" class="w-6 h-6" />
-        <p>+49 170 3375243</p>
+    <div class="absolute flex flex-col right-4 top-4 text-white space-y-2">
+      <div class="flex hidden md:block items-end text-center w-0 md:w-fit whitespace-nowrap space-x-2">
+        <div class="flex space-x-2">
+          <img src="img/phone.svg" class="w-6 h-6" />
+          <p>+49 170 3375243</p>
+        </div>
       </div>
       <a href="mailto:rosenfeldermaik@web.de"
-        class="flex invisible md:visible items-end w-0 md:w-fit whitespace-nowrap space-x-2 container"><img
-          src="img/email.svg" class="w-6 h-6" />
-        <p class="h-fit text-justify">rosenfeldermaik@web.de</p>
+        class="flex hidden md:block items-end w-0 md:w-fit whitespace-nowrap space-x-2 container">
+        <div class="flex space-x-2">
+          <img src="img/email.svg" class="w-6 h-6" />
+          <p class="h-fit text-justify">rosenfeldermaik@web.de</p>
+        </div>
       </a>
     </div>
   </section>
