@@ -1,250 +1,218 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Black Forest Food Trailer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/x-icon" href="img/bfft_logo.svg">
-    <script src="js/magic.js" type="text/javascript" defer></script>
-  </head>
-  <body>    
-    <!-- Sticky Header (appears when scrolling) -->
-    <header id="sticky-header" class="sticky-header">
-      <div class="container mx-auto px-4 py-3">
-        <div class="flex justify-between items-center">
-          <div class="flex items-center">
-            <h1 class="text-xl text-white font-bold playfair mr-4">
-              Black Forest Food Trailer
-            </h1>
-          </div>
-          <div class="flex space-x-2 text-white ml-4">
-            <div class="flex items-start md:invisible md:w-0">
-              <a href="tel:+491703375243">
-                <img src="img/phone.svg" class="w-6 h-6 mr-3 mt-1" />
-              </a>
-            </div>
-            <div class="flex items-start invisible md:visible items-center container w-0 md:w-fit whitespace-nowrap"><img src="img/phone.svg" class="w-6 h-6 mr-1" /><p>+49 170 3375243</p></div>
-            <div class="flex items-start md:invisible md:w-0">
-              <a href="https://wa.me/491703375243">
-                <img src="img/whatsapp.svg" class="w-6 h-6 mr-3 mt-1" />
-              </a>
-            </div>
-            <div class="flex items-start md:invisible md:w-0">
-              <a href="mailto:rosenfeldermaik@web.de">
-                <img src="img/email.svg" class="w-6 h-6 mr-3 mt-1" />
-              </a>
-            </div>
-            <div class="flex items-start invisible md:visible items-center container w-0 md:w-fit whitespace-nowrap"><a href="mailto:rosenfeldermaik@web.de" class="flex"><img src="img/email.svg" class="w-6 h-6 mr-1" /><p>rosenfeldermaik@web.de</p></a></div>
-          </div>
-        </div>
-      </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section
-      id="home"
-      class="hero-section flex items-center justify-center text-center"
-      aria-label="https://c.pxhere.com/photos/10/d6/travel_autumn_trees_black_fall_leaves_forest_germany-236826.jpg!d"
-      alt="https://pxhere.com/de/photo/236826"
-    >
-      <div class="container mx-auto px-4">
-        <div class="flex justify-center m-4">
-          <img src="img\bfft_logo.svg" class="w-64" />          
-        </div>
-        <h1 class="text-4xl md:text-6xl text-white font-bold mb-4 playfair">
-          Black Forest Food Trailer
-        </h1>
-        <p class="text-xl md:text-2xl text-white mb-8">
-          Genuss auf Rädern - Wo immer DU bist
-        </p>
-        <a
-          href="#menu"
-          class="bg-[#f8eecb] hover:bg-[#d2b48c] text-[#1b2a1d] font-bold py-3 px-8 rounded-full transition duration-300 inline-block"
-          >Unser Angebot</a
-        >
-      </div>
-      <div
-        class="absolute top-8 right-8 lg:right-24 lg:top-1/3 flex lg:flex-col space-x-2 lg:space-y-2 text-white visible md:invisible"
-      >
-        <div class="flex items-start">
-          <a href="tel:+491703375243">
-            <img src="img/phone.svg" class="w-6 h-6 lg:w-10 ml-4 lg:h-10" />
-          </a>
-        </div>
-        <div class="flex items-start">
-          <a href="https://wa.me/491703375243">
-            <img src="img/whatsapp.svg" class="w-6 h-6 mt-0 lg:w-10 lg:h-10 ml-4 lg:mt-4" />
-          </a>
-        </div>
-        <div class="flex items-start">
-          <a href="mailto:rosenfeldermaik@web.de">
-            <img src="img/email.svg" class="w-6 h-6 lg:w-10 lg:h-10 ml-4 lg:mt-4" />
-          </a>
-        </div>
-      </div>
-      <div
-        class="absolute flex flex-col right-4 top-4 invisible md:visible text-white space-y-2"
-      >
-        <div class="flex invisible md:visible items-end text-center w-0 md:w-fit whitespace-nowrap space-x-2 container"><img src="img/phone.svg" class="w-6 h-6" /><p>+49 170 3375243</p></div>
-        <a href="mailto:rosenfeldermaik@web.de" class="flex invisible md:visible items-end w-0 md:w-fit whitespace-nowrap space-x-2 container"><img src="img/email.svg" class="w-6 h-6" /><p class="h-fit text-justify">rosenfeldermaik@web.de</p></a>
-      </div>      
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Forest Food Trailer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/output.css">
+  <link rel="icon" type="image/x-icon" href="img/bfft_logo.svg">
+  <script src="js/magic.js" type="text/javascript" defer></script>
+</head>
 
-    <!-- About Section -->
-    <section id="about" class="py-8 bg-gray-100">
-      <div class="container mx-auto px-8 md:px-8">
-        <div class="flex flex-col md:flex-row items-center">
-          <div class="flex w-0 md:w-1/2 justify-center">
-            <img src="img\bfft_logo.svg" class="w-0 md:w-72 md:visible invisible" /> 
+<body>
+  <!-- Sticky Header (appears when scrolling) -->
+  <header id="sticky-header" class="sticky-header">
+    <div class="container mx-auto px-4 py-3">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center w-full">
+          <h1 class="text-xl w-fit text-white font-bold playfair text-nowrap">
+            Black Forest Food Trailer
+          </h1>
+        </div>
+        <div class="flex w-fit md:invisible md:w-0">
+            <a href="tel:+491703375243" class="pr-4">
+              <img src="img/phone.svg" class="w-6 h-6" />
+            </a>      
+            <a href="https://wa.me/491703375243" class="pr-4">
+              <img src="img/whatsapp.svg" class="w-6 h-6" />
+            </a>
+             <a href="mailto:rosenfeldermaik@web.de">
+              <img src="img/email.svg" class="w-6 h-6" />
+            </a>      
+        </div>
+        <div class="flex text-white invisible md:visible w-0 md:w-fit space-x-2">
+          <div class="flex items-start items-center pr-8 text-nowrap"><img
+              src="img/phone.svg" class="w-6 h-6 mr-1" />
+            <p>+49 170 3375243</p>
           </div>
-          <div class="md:w-1/2 md:pl-12 text-[#1b2a1d]">
-            <h2 class="text-3xl font-bold mb-6 playfair">
-              Herzlich Willkommen
-            </h2>
-            <p class="text-justify">
-              Erlebe den ultimativen Genuss mit unserem mobilen Essensangebot!
-              Ob zu einem Geburtstag, einem Firmenevent oder einem Dorf-/Stadtfest
-              – wir bringen dir frische, leckere Speisen direkt vor Ort. 
-              Unsere Küche auf Rädern vereint Qualität, Geschmack und Bequemlichkeit, 
-              damit du jederzeit und überall in den Genuss köstlicher Gerichte kommen 
-              kannst. Woimmer DU bist, der Genuss wartet auf dich!
-            </p>
+          <div class="flex items-start items-center text-nowrap"><a
+              href="mailto:rosenfeldermaik@web.de" class="flex"><img src="img/email.svg" class="w-6 h-6 mr-1" />
+              <p>rosenfeldermaik@web.de</p>
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <!-- Menu Section -->
-    <section id="menu" class="py-16 bg-white">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-12 text-center playfair">
-          Unser Angebot
-        </h2>
-        <div class="mb-12">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div
-              class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300"
-            >
-              <div class="h-62 flex items-center justify-center">
-                <img
-                  src="img/currywurst-min.jpg" class="w-[5184px]"
-                />
-              </div>
-              <div class="p-6">
-                <div class="flex justify-between items-center mb-3">
-                  <h4 class="text-xl font-bold text-[#1b2a1d]">Currywurst</h4>
-                </div>
-                <p class="text-[#1b2a1d]">
-                  Herzhafte Bratwurst aus dem Schwarzwald, knusprig gebraten, in
-                  feine Scheiben geschnitten und mit einer würzigen
-                  Haus-Currysauce veredelt rustikal, deftig und unverwechselbar
-                  im Geschmack!
-                </p>
-              </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero-section flex items-center justify-center text-center"
+    aria-label="https://c.pxhere.com/photos/10/d6/travel_autumn_trees_black_fall_leaves_forest_germany-236826.jpg!d"
+    alt="https://pxhere.com/de/photo/236826">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-center m-4">
+        <img src="img\bfft_logo.svg" class="w-64" />
+      </div>
+      <h1 class="text-4xl md:text-6xl text-white font-bold mb-4 playfair">
+        Black Forest Food Trailer
+      </h1>
+      <p class="text-xl md:text-2xl text-white mb-8">
+        Genuss auf Rädern - Wo immer DU bist
+      </p>
+      <a href="#menu"
+        class="bg-[#f8eecb] hover:bg-[#d2b48c] text-[#1b2a1d] font-bold py-3 px-8 rounded-full transition duration-300 inline-block">Unser
+        Angebot</a>
+    </div>
+    <div
+      class="absolute top-8 right-8 lg:right-24 lg:top-1/3 flex lg:flex-col space-x-2 lg:space-y-2 text-white md:invisible">
+      <div class="flex items-start">
+        <a href="tel:+491703375243">
+          <img src="img/phone.svg" class="w-6 h-6 lg:w-10 ml-4 lg:h-10" />
+        </a>
+      </div>
+      <div class="flex items-start">
+        <a href="https://wa.me/491703375243">
+          <img src="img/whatsapp.svg" class="w-6 h-6 mt-0 lg:w-10 lg:h-10 ml-4 lg:mt-4" />
+        </a>
+      </div>
+      <div class="flex items-start">
+        <a href="mailto:rosenfeldermaik@web.de">
+          <img src="img/email.svg" class="w-6 h-6 lg:w-10 lg:h-10 ml-4 lg:mt-4" />
+        </a>
+      </div>
+    </div>
+    <div class="absolute flex flex-col right-4 top-4 invisible md:visible text-white space-y-2">
+      <div class="flex invisible md:visible items-end text-center w-0 md:w-fit whitespace-nowrap space-x-2 container">
+        <img src="img/phone.svg" class="w-6 h-6" />
+        <p>+49 170 3375243</p>
+      </div>
+      <a href="mailto:rosenfeldermaik@web.de"
+        class="flex invisible md:visible items-end w-0 md:w-fit whitespace-nowrap space-x-2 container"><img
+          src="img/email.svg" class="w-6 h-6" />
+        <p class="h-fit text-justify">rosenfeldermaik@web.de</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-8 bg-gray-100">
+    <div class="container mx-auto px-8 md:px-8">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="flex w-0 md:w-1/2 justify-center">
+          <img src="img\bfft_logo.svg" class="w-0 md:w-72 md:visible invisible" />
+        </div>
+        <div class="md:w-1/2 md:pl-12 text-[#1b2a1d]">
+          <h2 class="text-3xl font-bold mb-6 playfair text-center">
+            Herzlich Willkommen
+          </h2>
+          <p class="text-center">
+            Erlebe den ultimativen Genuss mit unserem mobilen Essensangebot!
+            Ob zu einem Geburtstag, einer Firmenfeier oder sonstige Veranstaltungen,
+            wir bringen dir frische, leckere Speisen direkt vor Ort.
+            Unsere Küche auf Rädern vereint Qualität, Geschmack und Bequemlichkeit,
+            damit du jederzeit und überall in den Genuss köstlicher Gerichte kommen
+            kannst. Wo immer DU bist, der Genuss wartet auf dich!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-12 text-center playfair">
+        Unser Angebot
+      </h2>
+      <div class="mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+            <div class="h-fit flex items-center justify-center">
+              <img src="img/currywurst-min.jpg" class="w-[5184px]" />
             </div>
-
-            <div
-              class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300"
-            >
-              <div class="h-62 flex items-center justify-center">
-                <img
-                  src="img/rote_wurst-min.jpg" class="w-[5184px]"
-                />
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-[#1b2a1d]">Currywurst</h4>
               </div>
-              <div class="p-6">
-                <div class="flex justify-between items-center mb-3">
-                  <h4 class="text-xl font-semibold">Rote Wurst</h4>
-                </div>
-                <p class="text-[#1b2a1d]">
-                  Traditionelle Rote Wurst vom regionalen Metzger, herzhaft
-                  gegrillt und mit knuspriger Haut serviert ein deftiger Genuss,
-                  wie man ihn im Schwarzwald liebt!
-                </p>
-              </div>
+              <p class="text-[#1b2a1d]">
+                Herzhafte Bratwurst aus dem Schwarzwald, knusprig gebraten, in
+                feine Scheiben geschnitten und mit einer würzigen
+                Haus-Currysauce veredelt rustikal, deftig und unverwechselbar
+                im Geschmack!
+              </p>
             </div>
+          </div>
 
-            <div
-              class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300"
-            >
-              <div class="h-62 flex items-center justify-center">
-                <img
-                  src="img/steak-min.jpg" class="w-[5184px]"
-                />
-              </div>
-              <div class="p-6">
-                <div class="flex justify-between items-center mb-3">
-                  <h4 class="text-xl font-semibold">Steak</h4>
-                </div>
-                <p class="text-[#1b2a1d]">
-                  Zartes Schweinesteak vom Grill, saftig gebraten und mit einer
-                  kräftigen Gewürzmischung nach Schwarzwälder Art verfeinert
-                  rustikaler Fleischgenuss für echte Liebhaber!
-                </p>
-              </div>
+          <div class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+            <div class="h-fit flex items-center justify-center">
+              <img src="img/rote_wurst-min.jpg" class="w-[5184px]" />
             </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-semibold">Rote Wurst</h4>
+              </div>
+              <p class="text-[#1b2a1d]">
+                Traditionelle Rote Wurst vom regionalen Metzger, herzhaft
+                gegrillt und mit knuspriger Haut serviert ein deftiger Genuss,
+                wie man ihn im Schwarzwald liebt!
+              </p>
+            </div>
+          </div>
 
-            <div
-              class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300"
-            >
-              <div class="h-62 flex items-center justify-center">
-                <img
-                  src="img/pommes-min.jpg" class="w-[5184px]"
-                />
+          <div class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+            <div class="h-fit flex items-center justify-center">
+              <img src="img/steak-min.jpg" class="w-[5184px]" />
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-semibold">Steak</h4>
               </div>
-              <div class="p-6">
-                <div class="flex justify-between items-center mb-3">
-                  <h4 class="text-xl font-semibold">Pommes</h4>
-                </div>
-                <p class="text-[#1b2a1d]">
-                  Natürlich bieten wir unsere Leckereien auch kombiniert mit
-                  Pommes an.
-                </p>
+              <p class="text-[#1b2a1d]">
+                Zartes Schweinesteak vom Grill, saftig gebraten und mit einer
+                kräftigen Gewürzmischung nach Schwarzwälder Art verfeinert
+                rustikaler Fleischgenuss für echte Liebhaber!
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+            <div class="h-fit flex items-center justify-center">
+              <img src="img/pommes-min.jpg" class="w-[5184px]" />
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-semibold">Pommes</h4>
               </div>
+              <p class="text-[#1b2a1d]">
+                Natürlich bieten wir unsere Leckereien auch kombiniert mit
+                Pommes an.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="bg-[#1b2a1d] text-white py-8">
-      <div
-        class="flex flex-col text-center md:flex-row md:text-left items-center container mx-auto px-4"
-      >
-        <div
-          class="flex flex-col w-full md:w-1/2 md:flex-row justify-between items-center"
-        >
-          <div class="mb-4 md:mb-0">
-            <h3 class="text-2xl font-bold playfair">
-              Black Forest Food Trailer
-            </h3>
-            <p class="text-[#f8eecb]">Genuss auf Rädern - Wo immer DU bist</p>
-          </div>
-        </div>
-        <div
-          class="w-full md:w-1/2 border-t border-gray-800 text-center md:text-right text-white"
-        >
-          <p>Impressum | Datenschutz | AGB</p>
+  <!-- Footer -->
+  <footer class="bg-[#1b2a1d] text-white py-8">
+    <div class="flex flex-col text-center md:flex-row md:text-left items-center container mx-auto px-4">
+      <div class="flex flex-col w-full md:w-1/2 md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <h3 class="text-2xl font-bold playfair">
+            Black Forest Food Trailer
+          </h3>
+          <p class="text-[#f8eecb]">Genuss auf Rädern - Wo immer DU bist</p>
         </div>
       </div>
-    </footer>
-    
-    <iframe
-      height="1"
-      width="1"
-      style="
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        border: none;
-        visibility: hidden;
-      "
-    ></iframe>
-  </body>
+      <div class="w-full md:w-1/2 border-t border-gray-800 text-center xl:text-right text-white">
+        <p><a href="impressum.html">Impressum</a>&nbsp;|&nbsp;<a href="datenschutz.html">Datenschutzerklärung</a></p>
+      </div>
+    </div>
+  </footer>
+
 </html>
