@@ -34,15 +34,17 @@
               <img src="img/email.svg" class="w-6 h-6" />
             </a>      
         </div>
-        <div class="flex text-white hidden md:block w-0 md:w-fit space-x-2">
-          <div class="flex space-x-2">
-            <div class="flex items-start items-center pr-8 text-nowrap"><img
+        <div class="flex text-white hidden md:block w-0 md:w-fit">
+          <div class="flex space-x-4">
+            <div class="flex items-start items-center pr-8 text-nowrap space-x-2"><img
                 src="img/phone.svg" class="w-6 h-6" />
               <p>+49 170 3375243</p>
             </div>
-            <div class="flex items-start items-center text-nowrap pr-2"><a
-                href="mailto:rosenfeldermaik@web.de" class="flex"><img src="img/email.svg" class="w-6 h-6" />
-                <p>rosenfeldermaik@web.de</p>
+            <div 
+              class="flex hidden md:block items-end w-0 md:w-fit whitespace-nowrap container">
+              <a href="href="mailto:rosenfeldermaik@web.de" class="flex flex-nowrap space-x-2">
+                <img src="img/email.svg" class="w-6 h-6" />
+                <p class="h-fit text-justify">rosenfeldermaik@web.de</p>
               </a>
             </div>
           </div>
@@ -88,19 +90,19 @@
       </div>
     </div>
     <div class="absolute flex flex-col right-4 top-4 text-white space-y-2">
-      <div class="flex hidden md:block items-end text-center w-0 md:w-fit whitespace-nowrap space-x-2">
+      <div class="flex hidden md:block items-end text-center w-0 md:w-fit whitespace-nowrap">
         <div class="flex space-x-2">
           <img src="img/phone.svg" class="w-6 h-6" />
           <p>+49 170 3375243</p>
         </div>
       </div>
-      <a href="mailto:rosenfeldermaik@web.de"
-        class="flex hidden md:block items-end w-0 md:w-fit whitespace-nowrap space-x-2 container">
-        <div class="flex space-x-2">
+      <div 
+        class="flex hidden md:block items-end w-0 md:w-fit whitespace-nowrap container">
+        <a href="href="mailto:rosenfeldermaik@web.de" class="flex flex-nowrap space-x-2">
           <img src="img/email.svg" class="w-6 h-6" />
           <p class="h-fit text-justify">rosenfeldermaik@web.de</p>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -112,7 +114,7 @@
           <img src="img\bfft_logo.svg" class="w-0 md:w-72 md:visible invisible" />
         </div>
         <div class="md:w-1/2 md:pl-12 text-[#1b2a1d]">
-          <h2 class="text-3xl font-bold mb-6 playfair text-center">
+          <h2 class="text-5xl font-bold mb-6 playfair text-center">
             Herzlich Willkommen
           </h2>
           <p class="text-center">
@@ -135,7 +137,22 @@
         Unser Angebot
       </h2>
       <div class="mb-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-8">
+          <div class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+            <div class="flex items-center justify-center">
+              <img src="img/burger.jpg" class="w-fit" />
+            </div>
+            <div class="p-6">
+              <div class="flex justify-between items-center mb-3">
+                <h4 class="text-xl font-bold text-[#1b2a1d]">Burger</h4>
+              </div>
+              <p class="text-[#1b2a1d]">
+                Unsere Hamburger sind mehr als nur Fastfood - Sie sind ein kulinarisches Erlebnis! Saftiges Rindfleich 
+                vom Mezger, frische Zutaten und hausgemachte Soßen, machen jeden Bissen zu einem Genuss..
+              </p>
+            </div>
+          </div>
+
           <div class="menu-item bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
             <div class="flex items-center justify-center">
               <img src="img/currywurst-min.jpg" class="w-fit" />
@@ -145,10 +162,8 @@
                 <h4 class="text-xl font-bold text-[#1b2a1d]">Currywurst</h4>
               </div>
               <p class="text-[#1b2a1d]">
-                Herzhafte Bratwurst aus dem Schwarzwald, knusprig gebraten, in
-                feine Scheiben geschnitten und mit einer würzigen
-                Haus-Currysauce veredelt rustikal, deftig und unverwechselbar
-                im Geschmack!
+                Unsere Currywurst ist mehr als nur eine Wurst mit Soße. Wir legen Wert auf Qualität und Geschmack, 
+                von der Auswahl der Wurst bis zur Zubereitung unserer einzigartigen Currysoße.
               </p>
             </div>
           </div>
@@ -178,9 +193,8 @@
                 <h4 class="text-xl font-semibold">Steak</h4>
               </div>
               <p class="text-[#1b2a1d]">
-                Zartes Schweinesteak vom Grill, saftig gebraten und mit einer
-                kräftigen Gewürzmischung nach Schwarzwälder Art verfeinert
-                rustikaler Fleischgenuss für echte Liebhaber!
+                Unsere Steakbrötchen sind daß Highlight für alle Fleischliebhaber! Safftig gegrillte Steaks egal ob Rinder, 
+                Pute oder SChwein Steaks in einem frischen Brötchen verfeinert mit Zwiebeln und Soßen.
               </p>
             </div>
           </div>
@@ -194,8 +208,7 @@
                 <h4 class="text-xl font-semibold">Pommes</h4>
               </div>
               <p class="text-[#1b2a1d]">
-                Natürlich bieten wir unsere Leckereien auch kombiniert mit
-                Pommes an.
+                Wir verwenden nur die besten Karoffeln und frisches Öl, um sicher zu stellen, dass jede Portion ein Geschmackserlebnis ist.
               </p>
             </div>
           </div>
